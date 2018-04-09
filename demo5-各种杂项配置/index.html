@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box"></div>
+  <div id="app"></div>
+  <!-- 加载打包之后的结果 -->
+  <!-- 
+    1. 如果我们的打包的结果文件名或是路径变了？你的 index.html 引用的路径等都得修改
+    2. 我们期望把 index.html 打包到 dist 目录中
+    也就是说我们将来开发完毕，直接发布 dist 就可以了
+    3. 打包之后，index.html 在根目录，图片路径也有问题了
+       解决办法，就是把 index.html 放到 dist 目录
+       记住：dist 目录值存储打包的结果，不要修改也不要放任何自己创建的文件
+   -->
+   <!-- HtmlWebpackPlugin 会帮你自动在这里动态加入脚本引用 -->
+  <!-- <script src="dist/bundle.js"></script> -->
+</body>
+</html>

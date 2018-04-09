@@ -1,0 +1,10 @@
+body {
+  background-color: skyblue;
+  /*background-image: url('../img/0.jpg');*/
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url('../img/1.jpg');
+}
